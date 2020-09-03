@@ -13,7 +13,7 @@ Before cloning the repository, you need to have these technologies.
 ## Installation
 To install and run this project, you must follow these steps.
 ```bash
-git clone https://github.com/Victor1890/API_REST_MONGO
+git clone https://github.com/Victor1890/API_REST_MONGO.git
 ```
 ```bash
 cd API_REST_MONGO
