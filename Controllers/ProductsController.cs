@@ -60,7 +60,7 @@ namespace API_REST.Controllers
             return Created("The Products is Created", true);
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProducts(string id)
         {
             if (id == string.Empty)
